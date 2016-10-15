@@ -23,7 +23,7 @@ layout: default
 <ul>
 {% for post in site.categories.posts %}
 
-<li>{{ post.title }} :: <a href="{{ post.url }}" title="{{ post.description }}">en</a> :: <a href="{{ post.pt }}" title="{{ post.description_pt }}">pt_br</a></li>
+<li>{{ post.title }} :: <a href="{{ post.url }}" title="{{ post.description }}">en</a></li>
 
 {% endfor %}
 </ul>
