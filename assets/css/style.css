@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 html {
 	background-image: url("../img/background.gif");
@@ -17,7 +17,7 @@ body {
 	margin: auto;
 	width: 80%;
 	border: 1px dashed rgba(255,255,255,0.7);
-	font-family: "Monospace";
+	font-family: 'Source Code Pro', monospace;
 }
 
 header, nav, main, footer {
@@ -54,7 +54,7 @@ nav ul li a {
 }
 
 pre {
-	font-family: monospace;
+	font-family: 'Source Code Pro', monospace;
 }
 
 .highlighter-rouge {
