@@ -1,4 +1,3 @@
-8 -rw-r--r--   1 lostcarrier  staff   766 Oct 15 11:08 disqus.html
 ---
 layout: default
 ---
