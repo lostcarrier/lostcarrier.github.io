@@ -21,10 +21,3 @@ layout: default
 
 {% endfor %}
 </ul>
-
-# % cat contact.txt
-<ul>
-<li>
-twitter: <a href="https://twitter.com/lostcarri3r">lostcarri3r</a> // github: <a href="https://github.com/lostcarrier">lostcarrier</a>
-</li>
-</ul>

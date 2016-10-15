@@ -5,7 +5,7 @@ html {
 }
 
 a { color: #ccff00;
-    font-weight: bolder;
+    font-weight: bold;
 }
 a.external:after {
     content:         ">>";
@@ -17,7 +17,7 @@ body {
 	margin: auto;
 	width: 80%;
 	border: 1px dashed rgba(255,255,255,0.7);
-	font-family: "Open Sans";
+	font-family: "Monospace";
 }
 
 header, nav, main, footer {
@@ -51,10 +51,6 @@ nav ul li {
 nav ul li a {
 	text-decoration: none;
 	color: rgba(255,255,255,1);
-}
-
-nav ul li a:hover {
-	font-weight: bold;
 }
 
 pre {
