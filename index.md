@@ -2,13 +2,7 @@
 layout: default
 ---
 
-# $ cat about.txt
-{:id="about"}
-
-# $ cat contact.txt
-{:id="contact"}
-
-# $ cat projects.txt
+# % cat projects.txt
 {:id="projects"}
 
 <ul>
@@ -17,7 +11,7 @@ layout: default
 {% endfor %}
 </ul>
 
-# $ cat posts.txt
+# % cat posts.txt
 {:id="posts"}
 
 <ul>
@@ -28,3 +22,9 @@ layout: default
 {% endfor %}
 </ul>
 
+# % cat contact.txt
+<ul>
+<li>
+twitter: <a href="https://twitter.com/lostcarri3r">lostcarri3r</a> // github: <a href="https://github.com/lostcarrier">lostcarrier</a>
+</li>
+</ul>
