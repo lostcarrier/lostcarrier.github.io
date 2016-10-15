@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{% if site.categories.projects %}
 # % cat projects.txt
 {:id="projects"}
 
@@ -10,6 +11,7 @@ layout: default
 <li><a href="{{ project.link }}">{{ project.title }}</a> - {{ project.description }}</li>
 {% endfor %}
 </ul>
+{% endif %}
 
 # % cat posts.txt
 {:id="posts"}
