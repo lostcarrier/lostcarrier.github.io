@@ -48,23 +48,13 @@ nav ul li {
 	padding-left: 10px;
 }
 
-nav ul li {
+nav ul li a {
 	text-decoration: none;
 	color: rgba(255,255,255,1);
 }
 
 nav ul li a:hover {
 	font-weight: bold;
-}
-
-a {
-	text-decoration: none;
-	color: #2A6EA4;
-	font-weight: bold;
-}
-
-a:hover {
-	text-decoration: underline;
 }
 
 pre {
