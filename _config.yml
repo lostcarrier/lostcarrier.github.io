@@ -14,13 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: lostcarrier
-email: lostcarrier@riseup.net
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lostcarrier.github.io" # the base hostname & protocol for your site
+description:
+author:
+  name: lostcarrier
+  email: lostcarrier@riseup.net
+
 twitter_username: lostcarri3r
 github_username:  lostcarrier
-
+baseurl: "" # the subpath of your site, e.g. /blog
+permalink: /:title
+url: "https://lostcarrier.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 theme: minima
