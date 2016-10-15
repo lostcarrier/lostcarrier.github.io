@@ -4,12 +4,9 @@ html {
 	background-image: url("../img/background.gif");
 }
 
-a { border-bottom: thin solid;
-    color: #ccff00;
+a { color: #ccff00;
     font-weight: bolder;
-    text-decoration: none;
 }
-a:active, a:focus, a:hover { border-bottom-width: medium; }
 a.external:after {
     content:         ">>";
 }
@@ -51,7 +48,7 @@ nav ul li {
 	padding-left: 10px;
 }
 
-nav ul li a {
+nav ul li {
 	text-decoration: none;
 	color: rgba(255,255,255,1);
 }
