@@ -5,9 +5,8 @@ layout: default
 <ul>
 {% for post in site.categories.posts %}
 
-<li>-rw-r--r--  1 {{ post.author }} {{ post.date | date: "%b %d" }} <a href="{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a></li>
+<li>{{ post.author }} : {{ post.date | date: "%b %d" }} : <a href="{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a></li>
 
 {% endfor %}
 </ul>
 
-{{ site.collections }}
