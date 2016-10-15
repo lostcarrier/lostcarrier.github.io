@@ -79,3 +79,8 @@ main header {
 	padding-bottom: 15px;
 	border: 0;
 }
+
+footer {
+	text-align: right;
+	font: 10px;	
+}
