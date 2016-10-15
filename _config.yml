@@ -14,7 +14,6 @@ ssl: true # It will redirect to https
 
 # Media
 # Just the shortname:
-disqus: test
 twitter: lostcarri3r 
 github: lostcarrier 
 

@@ -8,33 +8,12 @@ layout: default
 # $ cat contact.txt
 {:id="contact"}
 
-# $ cat team.txt
-{:id="team"}
-
 # $ cat projects.txt
 {:id="projects"}
 
 <ul>
 {% for project in site.categories.projects %}
 <li><a href="{{ project.link }}">{{ project.title }}</a> - {{ project.description }}</li>
-{% endfor %}
-</ul>
-
-# $ cat tools.txt
-{:id="tools"}
-
-<ul>
-{% for tool in site.categories.tools %}
-<li><a href="{{ tool.link }}">{{ tool.title }}</a> - {{ tool.description }}</li>
-{% endfor %}
-</ul>
-
-# $ cat talks.txt
-{:id="talks"}
-
-<ul>
-{% for talk in site.categories.talks %}
-<li><a href="{{ talk.link }}" title="{{ talk.description }}">{{ talk.title }}</a> at {{ talk.where }}</li>
 {% endfor %}
 </ul>
 
