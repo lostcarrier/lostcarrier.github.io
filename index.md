@@ -2,20 +2,6 @@
 layout: default
 ---
 
-{% if site.categories.projects %}
-# % cat projects.txt
-{:id="projects"}
-
-<ul>
-{% for project in site.categories.projects %}
-<li><a href="{{ project.link }}">{{ project.title }}</a> - {{ project.description }}</li>
-{% endfor %}
-</ul>
-{% endif %}
-
-# % cat posts.txt
-{:id="posts"}
-
 <ul>
 {% for post in site.categories.posts %}
 
