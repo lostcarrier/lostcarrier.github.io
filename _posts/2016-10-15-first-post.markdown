@@ -2,7 +2,7 @@
 layout: post
 title:  "lostcarrier"
 date:   2016-10-15 10:14:34 -0400
-categories: post
+categories: posts
 ---
 This is my ([lostcarrier][lostcarrier-site]) first post
 
