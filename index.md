@@ -5,7 +5,7 @@ layout: default
 <ul>
 {% for post in site.categories.posts %}
 
-<li>8 -rw-r--r--   1 {{ post.author }}  staff   766 {{ post.date | date: "%B %-d }} <a href="{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a></li>
+<li>{{ post.date }} <a href="{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a></li>
 
 {% endfor %}
 </ul>

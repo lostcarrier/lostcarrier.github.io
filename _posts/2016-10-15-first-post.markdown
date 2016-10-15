@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "lostcarrier"
-author: "lostcarrier"
 date:   2016-10-15 10:14:34 -0400
 categories: posts
 ---
