@@ -6,6 +6,7 @@ baseurl: ""
 url: "https://lostcarrier.github.io"
 description: "lostcarrier"
 fanpage_id: ""
+excerpt_separator: <!--more-->
 
 # Site general settings
 lang: "en"
