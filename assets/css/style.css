@@ -28,11 +28,11 @@ header, nav {
 }
 
 .ascii {
+	line-height: 90%;
 	color: rgba(255,255,255,1);
 }
 
 .logo {
-	line-height: 90%;
 	font: 9px monospace;
 }
 
