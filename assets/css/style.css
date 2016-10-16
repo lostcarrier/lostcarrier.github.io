@@ -87,13 +87,13 @@ footer {
 
 .PageNavigation {
   display: block;
-  width: 100%;
+  width: auto;
   overflow: hidden;
 }
 
 .PageNavigation a {
   display: block;
-  width: auto;
+  width: 50%;
   float: left;
   margin: 1em 0;
 }
