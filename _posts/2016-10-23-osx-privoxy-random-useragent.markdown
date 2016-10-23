@@ -6,7 +6,7 @@ author: "lostcarrier"
 categories: posts
 ---
 
-```python
+```
 #!/usr/local/bin/python
 
 from user_agent import (generate_user_agent, generate_navigator,
