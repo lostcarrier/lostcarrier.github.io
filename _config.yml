@@ -19,5 +19,6 @@ github: lostcarrier
 
 # Build settings
 markdown: kramdown
+syntax_highlighter: rouge
 highlighter: rouge
 permalink: /:categories/:title/
