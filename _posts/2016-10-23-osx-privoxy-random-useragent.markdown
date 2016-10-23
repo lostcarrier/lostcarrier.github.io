@@ -64,7 +64,6 @@ now in the terminal:
 
 ```
 brew services start tor
-
 brew services start privoxy
 ```
 
@@ -77,11 +76,8 @@ if you're pissed that it screwed something up and you want to remove proxify/tor
 
 ```
 brew services stop proxify
-
 brew services stop tor
-
 brew remove proxify
-
 brew remove tor
 ```
 
