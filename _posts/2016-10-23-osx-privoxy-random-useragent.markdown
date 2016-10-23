@@ -33,9 +33,7 @@ ranua.py
 ```python
 #!/usr/local/bin/python
 
-from user_agent import (generate_user_agent, generate_navigator,
-                        generate_navigator_js,
-                        UserAgentRuntimeError, UserAgentInvalidRequirements)
+from user_agent import (generate_user_agent)
 
 ua = generate_user_agent()
 
