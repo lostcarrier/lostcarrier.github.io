@@ -10,10 +10,7 @@ categories: posts
 brew install tor
 brew install privoxy
 ```
-in /usr/local/etc/privoxy/config, place this line
-```
-actionsfile user-agent.action
-```
+in /usr/local/etc/privoxy/config, place the line `actionsfile user-agent.action` 
 in between the actionsfile default.action and actionsfile user.action lines.
 
 search /usr/local/etc/privoxy/config for the following lines, and uncomment them all:
@@ -33,7 +30,7 @@ forward           localhost/     .
 i have the following python script in ~/bin:
 ranua.py
 
-``` python
+```python
 #!/usr/local/bin/python
 
 from user_agent import (generate_user_agent, generate_navigator,
@@ -52,10 +49,7 @@ f1=open('/usr/local/etc/privoxy/user-agent.action', 'w+')
 f1.write("%s\n%s%s%s\n%s\n%s" %(ua_1, ua_2, ua, ua_3, ua_4, ua_5))
 ```
 
-now edit your cron file (crontab -e) to include this line:
-```
-*/15 * * * * /Users/your_user_name/bin/ranua.py
-```
+now edit your cron file (crontab -e) to include the line: `*/15 * * * * /Users/your_user_name/bin/ranua.py` 
 change the your_user_name to whatever your user name is.
 
 (this will run the ranua.py every 15 minutes, and change the user agent that privoxy sends with each http request.)
