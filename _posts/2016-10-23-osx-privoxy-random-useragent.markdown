@@ -61,8 +61,10 @@ change the your_user_name to whatever your user name is.
 (this will run the ranua.py every 15 minutes, and change the user agent that privoxy sends with each http request.)
 
 now in the terminal:
+
 ```
 brew services start tor
+
 brew services start privoxy
 ```
 
@@ -75,8 +77,11 @@ if you're pissed that it screwed something up and you want to remove proxify/tor
 
 ```
 brew services stop proxify
+
 brew services stop tor
+
 brew remove proxify
+
 brew remove tor
 ```
 
