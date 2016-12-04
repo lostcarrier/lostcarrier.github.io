@@ -99,3 +99,4 @@ Download and apply this patch:
 ``` 
              dev.asmc.0.fan.0.minspeed=3000
 ```
+
