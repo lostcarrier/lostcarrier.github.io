@@ -98,3 +98,4 @@ Download and apply this patch:
 -        /boot/loader.conf:
 ``` 
              dev.asmc.0.fan.0.minspeed=3000
+```
