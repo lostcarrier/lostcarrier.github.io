@@ -9,7 +9,7 @@ Running FreeBSD 10.3-STABLE on Macbook Pro 9,2 (mid 2012)
         powerd_flags="-a adaptive -b adaptive"
 ```
 
-#Wireless
+#Wireless!
 Wireless is bcm4331, neither bwi or bwn drivers work, needs version 5 drivers
 -    temp fix: using dwa-131 dongle
 -    /boot/loader.conf:
