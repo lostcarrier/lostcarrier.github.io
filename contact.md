@@ -5,7 +5,6 @@ permalink: /contact/
 ---
 <center>
 <a href="https://github.com/lostcarrier">github</a> : <a href="https://twitter.com/lostcarri3r">twitter</a> : <a href="mailto:lostcarrier@cryptolab.net">email</a><br><br>
-PGP:<br>
 </center>
 <pre>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
